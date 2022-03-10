@@ -12,14 +12,15 @@ const Video = () => {
       <div className="content">
         <h1>TAEKWONDO TRAINING</h1>
         <p>Learn self defence with the best</p>
-      </div>
-      <div>
-        <Link to="/training" className="btn">
-          Training
-        </Link>
-        <Link to="/contact" className="btn btn-light">
-          Launch
-        </Link>
+
+        <div>
+          <Link to="/training" className="btn">
+            Training
+          </Link>
+          <Link to="/contact" className="btn btn-light">
+            Launch
+          </Link>
+        </div>
       </div>
     </div>
   );
