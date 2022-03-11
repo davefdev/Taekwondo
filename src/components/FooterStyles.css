@@ -1,13 +1,18 @@
+.footer {
+  width: 100%;
+  padding: 5.75rem 0;
+  background: rgba(0, 0, 0, 0.9);
+}
 
+.footer-container {
+  max-width: 1140px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2.25, 1fr);
+  grid-gap: 2.75rem;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.footer .left {
+  height: 100%;
+  max-width: 100%;
+}
