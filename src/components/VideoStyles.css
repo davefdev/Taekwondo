@@ -4,14 +4,13 @@
   height: 100%;
   object-fit: cover;
   z-index: -1;
-
 }
 
 .main {
   height: 100vh;
   width: 100%;
   object-fit: contain;
-  background: rgba(0,0,0,0.3); 
+  background: rgba(0, 0, 0, 0.3);
 }
 
 .main .content {
@@ -24,7 +23,7 @@
 }
 
 .main .content h1 {
-  font-size:5rem;
+  font-size: 5rem;
   color: white;
 }
 
@@ -36,22 +35,16 @@
   color: white;
 }
 
-
 .main .btn {
-
-
-    margin: 1.1rem 0.25rem;
+  margin: 1.1rem 0.25rem;
 }
 
-
 @media screen and (max-width: 640px) {
-
-    .content h1 {
-        font-size: 3.25rem;
-    }
-    .content p {
-
-        font-size: 1.5rem;
-        margin-bottom: 1.75rem;
-    }
+  .content h1 {
+    font-size: 3.25rem;
+  }
+  .content p {
+    font-size: 1.5rem;
+    margin-bottom: 1.75rem;
+  }
 }
