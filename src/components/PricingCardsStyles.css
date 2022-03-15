@@ -1,0 +1,65 @@
+.pricing {
+  width: 100%;
+  padding: 6.5rem 1.25rem;
+  background-color: anthracite;
+}
+
+.card-container {
+  max-width: 1140px;
+  margin: auto;
+  display: grid;
+  grid-gap: 3rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card-container .card {
+  border: 1.1px solid white;
+  color: white;
+}
+
+.card {
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.card:hover {
+  background-color: rgb(182, 8, 43);
+}
+
+.card h3 {
+  font-size: 1.6rem;
+  padding: 1.1rem;
+}
+
+.card .bar {
+  border-bottom: 1.1px solid white;
+  width: 20%;
+  margin: 1.6rem auto;
+  display: block;
+}
+
+.card .price {
+  font-size: 4.25rem;
+  font-weight: 625;
+  padding: 1.1rem;
+}
+
+.pricing p {
+  color: white;
+  padding: 0.75rem 0;
+  font-size: 1.3rem;
+}
+
+.card .btn {
+  display: block;
+  width: 80%;
+  margin: 2rem auto;
+}
+
+@media screen and (max-width: 980px) {
+  .card-container {
+    max-width: 85%;
+    margin: auto;
+    grid-template-columns: 1fr;
+  }
+}

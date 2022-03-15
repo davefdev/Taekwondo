@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import "./HeroImageStyles.css";
+import "./BannerImageStyles.css";
 
 export class BannerImage extends Component {
   render() {
     return (
       <div className="banner-img">
         <div className="heading">
-          <h1>{this.props.heading}</h1>
+          <h1>{this.props.banner}</h1>
           <p>{this.props.text}</p>
         </div>
       </div>
