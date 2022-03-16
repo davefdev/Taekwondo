@@ -1,0 +1,50 @@
+.training {
+  width: 100%;
+  margin: 2.75rem 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 100%;
+}
+
+.training .left {
+  text-align: center;
+  margin: auto;
+  padding: 1.1rem 3.9rem;
+  max-width: 37.5rem;
+}
+
+.training .left p {
+  margin: 1.3rem 0;
+}
+
+.training .right {
+  width: 100%;
+}
+
+
+.right .image-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    position: relative;
+    align-items: center;
+    text-align: center;
+} 
+
+.right .image {
+    max-width: 65%;
+    border: 1.2px solid #333;
+} 
+
+.right .top {
+    grid-column: 1 / span 8;
+    grid-row: 1;
+    padding: 22%;
+    z-index: 6;
+} 
+
+.right .bottom {
+    grid-column: 4 / -1;
+    grid-row: 1;
+    padding: 22%;
+    z-index: 5;
+} 
