@@ -15,12 +15,12 @@ const TrainingTaek = () => {
         </Link>
       </div>
       <div className="right">
-        <div className="image-container">
-          <div className="image-layers top">
-            <img src={Kick} className="image" alt="taekwondo kick" />
+        <div className="img-container">
+          <div className="img-layers top">
+            <img src={Kick} className="img" alt="taekwondo kick" />
           </div>
-          <div className="image-layers bottom">
-            <img src={Punch} className="image" alt="taekwondo punch" />
+          <div className="img-layers bottom">
+            <img src={Punch} className="img" alt="taekwondo punch" />
           </div>
         </div>
       </div>

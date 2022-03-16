@@ -6,6 +6,10 @@
   height: 100%;
 }
 
+.training .btn {
+  font-size: 1.5rem;
+}
+
 .training .left {
   text-align: center;
   margin: auto;
@@ -13,38 +17,50 @@
   max-width: 37.5rem;
 }
 
+.training .left h1 {
+    font-size: 2.5rem;
+  }
+
 .training .left p {
   margin: 1.3rem 0;
+  font-size: 1.2rem;
 }
 
 .training .right {
   width: 100%;
 }
 
+.right .img-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  position: relative;
+  align-items: center;
+  text-align: center;
+}
 
-.right .image-container {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    position: relative;
-    align-items: center;
-    text-align: center;
-} 
-
-.right .image {
-    max-width: 65%;
-    border: 1.2px solid #333;
-} 
+.right .img {
+  max-width: 65%;
+  border: 1.2px solid #333;
+}
 
 .right .top {
-    grid-column: 1 / span 8;
-    grid-row: 1;
-    padding: 22%;
-    z-index: 6;
-} 
+  grid-column: 1 / span 8;
+  grid-row: 1;
+  padding: 10%;
+  z-index: 8;
+}
 
 .right .bottom {
-    grid-column: 4 / -1;
-    grid-row: 1;
-    padding: 22%;
-    z-index: 5;
-} 
+  grid-column: 4 / -1;
+  grid-row: 1;
+  z-index: 7;
+}
+
+@media screen and (max-width: 1140px) {
+  .training {
+    grid-template-columns: 1fr;
+  }
+  .training .image {
+    max-width: 80%;
+  }
+}
