@@ -8,7 +8,7 @@ const Pricing = () => {
   return (
     <div>
       <Navbar />
-      <BannerImage banner="PRICING." text="Select your membership level" />
+      <BannerImage heading="PRICING" text="Select your membership level" />
       <PricingCards />
       <Footer />
     </div>
