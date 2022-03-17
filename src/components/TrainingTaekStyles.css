@@ -60,7 +60,7 @@
   .training {
     grid-template-columns: 1fr;
   }
-  .training .image {
+  .training .img {
     max-width: 80%;
   }
 }
