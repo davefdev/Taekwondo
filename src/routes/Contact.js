@@ -1,8 +1,9 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import BannerImage from "../components/BannerImage";
-import Footer from "../components/Footer";
 import Form from "../components/Form";
+import Footer from "../components/Footer";
+
 const Contact = () => {
   return (
     <div>

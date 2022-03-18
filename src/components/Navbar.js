@@ -1,14 +1,28 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "./NavbarStyles.css";
 import { FaBars, FaTimes } from "react-icons/fa";
+import "./NavbarStyles.css";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click); //not clicked as default
 
+  //CHANGE COLOUR ON SCROLL
+  const [color, setColor] = useState(false); //default value
+  const colorChanger = () => {
+    if (window.scrollY >= 100) {
+      //if the vertical window scroll's pixels is greater or equal to 100px
+      setColor(true);
+    } else {
+      setColor(false);
+    }
+  };
+
+  //create event listener on the window
+  window.addEventListener("scroll", colorChanger);
+
   return (
-    <div className="header">
+    <div className={color ? "header header-bg" : "header"}>
       <Link to="/">
         <h1>Taek Trainer</h1>
       </Link>

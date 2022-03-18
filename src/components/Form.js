@@ -9,16 +9,17 @@ const Form = () => {
         <input type="text"> </input>
         <label>Email</label>
         <input type="email"> </input>
+        <label>Subject</label>
+        <input type="text"> </input>
         <label>Message</label>
-        <input type="text"> </input>
-        <label>Name</label>
-        <input type="text"> </input>
-        <label>Name</label>
-        <input type="text"> </input>
+        <textarea
+          rows="8"
+          placeholder="Please input your message here"
+        ></textarea>
+        <button className="btn">Submit</button>
       </form>
     </div>
   );
 };
 
 export default Form;
-//fff

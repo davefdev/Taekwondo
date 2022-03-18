@@ -1,7 +1,6 @@
 .pricing {
   width: 100%;
   padding: 6.5rem 1.25rem;
-  background-color: anthracite;
 }
 
 .card-container {
@@ -33,7 +32,7 @@
 
 .card .bar {
   border-bottom: 1.1px solid white;
-  width: 20%;
+  width: 30%;
   margin: 1.6rem auto;
   display: block;
 }
@@ -58,7 +57,7 @@
 
 @media screen and (max-width: 980px) {
   .card-container {
-    max-width: 85%;
+    max-width: 75%;
     margin: auto;
     grid-template-columns: 1fr;
   }
