@@ -46,7 +46,7 @@ const Footer = () => {
         <div className="right">
           <h4>About</h4>
           <p>
-            Taek Trainer MAnchester is your preeminent taekwondo trainer in the
+            Taek Trainer Manchester is your preeminent taekwondo trainer in the
             North West. Boasting over 100 years of combined experience,
           </p>
           <div className="social">

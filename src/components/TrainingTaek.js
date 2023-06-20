@@ -9,9 +9,12 @@ const TrainingTaek = () => {
     <div className="training">
       <div className="left">
         <h1>Taek Training</h1>
-        <p>You will hone your Taekwondo skills through intense training, learning all aspects of </p>
+        <p>
+          You will hone your Taekwondo skills through intense training, learning
+          all aspects of{" "}
+        </p>
         <Link to="/contact">
-          <button className="btn"> Contact</button>
+          <button disabled className="btn"> Contact</button>
         </Link>
       </div>
       <div className="right">
